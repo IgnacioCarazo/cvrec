@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.590e5c43.css",
+    "main.js": "/static/js/main.dd849bbb.js",
+    "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.f7b82648.chunk.js",
+    "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.a1d8f210.chunk.js",
+    "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.c5b966f3.chunk.js",
+    "reactPlayerMux.js": "/static/js/reactPlayerMux.c8a367de.chunk.js",
+    "reactPlayerFacebook.js": "/static/js/reactPlayerFacebook.ceb13640.chunk.js",
+    "reactPlayerStreamable.js": "/static/js/reactPlayerStreamable.eb800e6b.chunk.js",
+    "reactPlayerWistia.js": "/static/js/reactPlayerWistia.0c8516d3.chunk.js",
+    "reactPlayerTwitch.js": "/static/js/reactPlayerTwitch.bbb7b23c.chunk.js",
+    "reactPlayerDailyMotion.js": "/static/js/reactPlayerDailyMotion.b17ea01b.chunk.js",
+    "reactPlayerMixcloud.js": "/static/js/reactPlayerMixcloud.e935d370.chunk.js",
+    "reactPlayerVidyard.js": "/static/js/reactPlayerVidyard.814c08f7.chunk.js",
+    "reactPlayerKaltura.js": "/static/js/reactPlayerKaltura.22f5dac2.chunk.js",
+    "reactPlayerFilePlayer.js": "/static/js/reactPlayerFilePlayer.dc963978.chunk.js",
+    "reactPlayerPreview.js": "/static/js/reactPlayerPreview.64ca439c.chunk.js",
+    "static/js/206.1ea36681.chunk.js": "/static/js/206.1ea36681.chunk.js",
+    "static/media/video6.mp4": "/static/media/video6.15da83b06ea3ec00a9fd.mp4",
+    "static/media/video1.mp4": "/static/media/video1.14fcea6f11c9d0f1fc62.mp4",
+    "static/media/video8.mp4": "/static/media/video8.336b71561ac81caad8ca.mp4",
+    "static/media/video5.mp4": "/static/media/video5.e8d8ef28e6f2bb69d7d6.mp4",
+    "static/media/video4.mp4": "/static/media/video4.c08dfac6d401054b320f.mp4",
+    "static/media/video2.mp4": "/static/media/video2.bd84d897430e70a65f4b.mp4",
+    "static/media/video3.mp4": "/static/media/video3.05a1d8bd42dae6b1f344.mp4",
+    "static/media/video9.mp4": "/static/media/video9.43bc42c513778790fba0.mp4",
+    "static/media/video10.mp4": "/static/media/video10.aa264553d303dd947a64.mp4",
+    "static/media/video11.mp4": "/static/media/video11.dd694aec28d80721ec20.mp4",
+    "static/media/video7.mp4": "/static/media/video7.e008d3b6217fc6d3122d.mp4",
+    "static/media/logo.png": "/static/media/logo.5ba028f80081a3d81bb9.png",
+    "static/media/Copperplate.ttf": "/static/media/Copperplate.8d8df3649ee1c17e0481.ttf",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.590e5c43.css",
+    "static/js/main.dd849bbb.js"
+  ]
+}
