@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Copperplate";
+  src: url("./assets/fonts/Copperplate.ttf") format("truetype"); /* Adjust the path */
+  /* You can add more src declarations for different font file formats */
+}
+
+p {
+  line-height: 1;
+  font-family: "Copperplate";
+}
