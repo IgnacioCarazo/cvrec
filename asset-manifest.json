@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cvrec/static/css/main.f57973a2.css",
-    "main.js": "/cvrec/static/js/main.7b5a09f6.js",
+    "main.css": "/cvrec/static/css/main.c594514f.css",
+    "main.js": "/cvrec/static/js/main.77348b8b.js",
     "reactPlayerYouTube.js": "/cvrec/static/js/reactPlayerYouTube.f7b82648.chunk.js",
     "reactPlayerSoundCloud.js": "/cvrec/static/js/reactPlayerSoundCloud.a1d8f210.chunk.js",
     "reactPlayerVimeo.js": "/cvrec/static/js/reactPlayerVimeo.c5b966f3.chunk.js",
@@ -37,7 +37,7 @@
     "index.html": "/cvrec/index.html"
   },
   "entrypoints": [
-    "static/css/main.f57973a2.css",
-    "static/js/main.7b5a09f6.js"
+    "static/css/main.c594514f.css",
+    "static/js/main.77348b8b.js"
   ]
 }
