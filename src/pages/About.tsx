@@ -28,6 +28,12 @@ function About() {
             forms.
           </p>
         </div>
+        <div className={"introductory-text introductory-text-II"}>
+          <p>
+            For full videos: instagram @cvrecstudios <br />
+            Inquiries: charlotta.roos@hotmail.com
+          </p>
+        </div>
       </div>
 
       {/* 12. Logo again */}

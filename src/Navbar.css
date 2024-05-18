@@ -15,7 +15,7 @@
   transition: background 1.5s ease; /* Smooth transition effect */
   align-items: center;
   justify-content: center;
-  font-family: "Copperplate";
+  font-family: "Copperplate", sans-serif;
 }
 
 /* Optionally, you can specify different styles for hovered links */

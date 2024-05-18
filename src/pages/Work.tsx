@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./Work.css"; // Import your CSS file
-import ReactPlayer from "react-player";
 
 import video1 from "../assets/Row1Place1.mp4";
 import video2 from "../assets/Row1Place2.mp4";
@@ -20,20 +19,18 @@ import video14 from "../assets/Row7Place2.mp4";
 import logo from "../assets/logo.png";
 import instagram_icon from "../assets/instagram.png";
 import email_icon from "../assets/email.png";
+import VideoComponent from "./VideoComponent"; // Adjust the import path as needed
+import ReactPlayer from "react-player";
 
 function Work() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 600);
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 600);
-    };
-
+    const handleResize = () => setIsMobile(window.innerWidth < 600);
     window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
+
   return (
     <div className="container">
       <div className="logo">
@@ -50,67 +47,15 @@ function Work() {
 
       <div className="videos-container">
         <div className="videos">
-          <div className="video">
-            <ReactPlayer
-              url={video1}
-              playing
-              loop
-              playsinline
-              muted
-              width={"100%"}
-              height={"100%"}
-            />
-          </div>
-          <div className="video">
-            <ReactPlayer
-              url={video2}
-              playing
-              loop
-              playisinline
-              muted
-              width={"100%"}
-              height={"100%"}
-            />
-          </div>
-          {!isMobile && (
-            <div className="video">
-              <ReactPlayer
-                url={video3}
-                playing
-                loop
-                playisinline
-                muted
-                width={"100%"}
-                height={"100%"}
-              />
-            </div>
-          )}
+          <VideoComponent url={video1} />
+          <VideoComponent url={video2} />
+          {!isMobile && <VideoComponent url={video3} />}
         </div>
 
         {isMobile && (
           <div className="videos">
-            <div className="video">
-              <ReactPlayer
-                url={video3}
-                playing
-                loop
-                playisinline
-                muted
-                width={"100%"}
-                height={"100%"}
-              />
-            </div>
-            <div className="video">
-              <ReactPlayer
-                url={video5}
-                playing
-                loop
-                playisinline
-                muted
-                width={"100%"}
-                height={"100%"}
-              />
-            </div>
+            <VideoComponent url={video3} />
+            <VideoComponent url={video5} />
           </div>
         )}
         <div className="horizontal-video">
@@ -120,46 +65,14 @@ function Work() {
             width="95%"
             height="95%"
             loop
-            playisinline
+            playsinline
             muted
           />
         </div>
         <div className="videos">
-          {!isMobile && (
-            <div className="video">
-              <ReactPlayer
-                url={video5}
-                playing
-                width="100%"
-                height="100%"
-                loop
-                playisinline
-                muted
-              />
-            </div>
-          )}
-          <div className="video">
-            <ReactPlayer
-              url={video6}
-              playing
-              width="100%"
-              height="100%"
-              loop
-              playisinline
-              muted
-            />
-          </div>
-          <div className="video">
-            <ReactPlayer
-              url={video7}
-              playing
-              width="100%"
-              height="100%"
-              loop
-              playisinline
-              muted
-            />
-          </div>
+          {!isMobile && <VideoComponent url={video5} />}
+          <VideoComponent url={video6} />
+          <VideoComponent url={video7} />
         </div>
 
         <div className="horizontal-video">
@@ -169,45 +82,15 @@ function Work() {
             width="95%"
             height="95%"
             loop
-            playisinline
+            playsinline
             muted
           />
         </div>
 
         <div className="videos">
-          <div className="video">
-            <ReactPlayer
-              url={video9}
-              playing
-              width="100%"
-              height="100%"
-              loop
-              playisinline
-              muted
-            />
-          </div>
-          <div className="video">
-            <ReactPlayer
-              url={video10}
-              playing
-              width="100%"
-              height="100%"
-              loop
-              playisinline
-              muted
-            />
-          </div>
-          <div className="video">
-            <ReactPlayer
-              url={video11}
-              playing
-              width="100%"
-              height="100%"
-              loop
-              playisinline
-              muted
-            />
-          </div>
+          <VideoComponent url={video9} />
+          <VideoComponent url={video10} />
+          <VideoComponent url={video11} />
         </div>
 
         <div className="horizontal-video">
@@ -217,40 +100,17 @@ function Work() {
             width="95%"
             height="95%"
             loop
-            playisinline
+            playsinline
             muted
           />
         </div>
 
         <div className="videos">
-          <div className="video">
-            <ReactPlayer
-              url={video13}
-              playing
-              width="100%"
-              height="100%"
-              loop
-              playisinline
-              muted
-            />
-          </div>
-          <div className="video">
-            <ReactPlayer
-              url={video14}
-              playing
-              width="100%"
-              height="100%"
-              loop
-              playisinline
-              muted
-            />
-          </div>
+          <VideoComponent url={video13} />
+          <VideoComponent url={video14} />
         </div>
       </div>
       <div className="contact-details-text-container">
-        <div className={"contact-details-text contact-details-text-I"}>
-          <p>Contact Details</p>
-        </div>
         <div className="details">
           <img height="24px" src={email_icon} alt="Social Link" />
           <div className={"contact-details-text contact-details-text-II"}>

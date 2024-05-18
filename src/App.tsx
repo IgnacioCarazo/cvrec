@@ -1,5 +1,10 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  HashRouter as Router,
+  Navigate,
+  Route,
+  Routes,
+} from "react-router-dom";
 import About from "./pages/About";
 import Work from "./pages/Work";
 import Navbar from "./Navbar";
@@ -9,7 +14,8 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/about" element={<About />} />
-        <Route path="/cvrec" element={<Work />} />
+        <Route path="*" element={<Navigate to="/work" />} />
+        <Route path="/work" element={<Work />} />
       </Routes>
     </>
   );
