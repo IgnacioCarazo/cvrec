@@ -18,11 +18,11 @@
 }
 
 .introductory-text-I {
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .introductory-text-II {
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .introductory-text-III {
@@ -36,9 +36,9 @@
   }
 
   .introductory-text-I {
-    font-size: 18px;
+    font-size: 12px;
   }
   .introductory-text-II {
-    font-size: 12px;
+    font-size: 6px;
   }
 }
