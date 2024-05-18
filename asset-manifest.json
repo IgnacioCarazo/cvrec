@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f560e1e7.css",
+    "main.css": "/static/css/main.2c8f91d8.css",
     "main.js": "/static/js/main.eb4af4b0.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.f7b82648.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.a1d8f210.chunk.js",
@@ -31,13 +31,13 @@
     "static/media/Row3Place3.mp4": "/static/media/Row3Place3.54d3d8d9c02c00ab550d.mp4",
     "static/media/Row7Place1.mp4": "/static/media/Row7Place1.9c116d11b84c389df0ad.mp4",
     "static/media/Row5Place1.mp4": "/static/media/Row5Place1.1bd340fd4536143d4559.mp4",
+    "static/media/Korataki.ttf": "/static/media/Korataki.e13b3d3c2a2a38b012fe.ttf",
     "static/media/logo.png": "/static/media/logo.5ba028f80081a3d81bb9.png",
-    "static/media/Copperplate.ttf": "/static/media/Copperplate.8d8df3649ee1c17e0481.ttf",
     "static/media/email.png": "/static/media/email.385f90f128f6400a8f7b.png",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.f560e1e7.css",
+    "static/css/main.2c8f91d8.css",
     "static/js/main.eb4af4b0.js"
   ]
 }
